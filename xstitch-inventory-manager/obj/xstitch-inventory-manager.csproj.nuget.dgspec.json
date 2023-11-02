@@ -44,6 +44,20 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
